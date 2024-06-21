@@ -5,6 +5,7 @@ import Button from "./components/Button";
 import Click from "./components/Click";
 import ListGroup from "./components/ListGroup";
 import NestedObject from "./components/NestedObject";
+import SharedState from "./components/SharedState";
 
 function App() {
   // let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
@@ -26,12 +27,13 @@ function App() {
       {/* <Button color="primary" onClick={() => console.log("Clicked!")}>
         My Button
       </Button> */}
-      <Click />
-      <BugUpdate />
-      <div>
+      {/* <Click /> */}
+      {/* <BugUpdate /> */}
+      {/* <div>
         Nested Object
         <NestedObject />
-      </div>
+      </div> */}
+      <SharedState />
     </>
   );
 }
