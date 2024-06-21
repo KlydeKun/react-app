@@ -1,5 +1,6 @@
 import "./App.css";
 import Alert from "./components/Alert";
+import BugUpdate from "./components/BugUpdate";
 import Button from "./components/Button";
 import Click from "./components/Click";
 import ListGroup from "./components/ListGroup";
@@ -25,6 +26,7 @@ function App() {
         My Button
       </Button> */}
       <Click />
+      <BugUpdate />
     </>
   );
 }

@@ -1,3 +1,4 @@
+import produce from "immer";
 import React, { useState } from "react";
 
 const Click = () => {
@@ -24,7 +25,7 @@ const Click = () => {
   };
 
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column", width: "15rem" }}>
       <button onClick={firstClick}>Click Me 1</button>
       <button onClick={secondClick}>Click Me 2</button>
       <button onClick={thirdleClick}>Click Me 3</button>
