@@ -4,6 +4,7 @@ import BugUpdate from "./components/BugUpdate";
 import Button from "./components/Button";
 import Click from "./components/Click";
 import ListGroup from "./components/ListGroup";
+import NestedObject from "./components/NestedObject";
 
 function App() {
   // let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
@@ -27,6 +28,10 @@ function App() {
       </Button> */}
       <Click />
       <BugUpdate />
+      <div>
+        Nested Object
+        <NestedObject />
+      </div>
     </>
   );
 }
