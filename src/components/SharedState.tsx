@@ -10,7 +10,7 @@ const SharedState = () => {
   ]);
 
   return (
-    <div>
+    <div style={{ margin: "2rem" }}>
       <NavBar cartItemsCount={cartItems.length} />
       <Cart cartItems={cartItems} onClear={() => setCartItems([])} />
     </div>

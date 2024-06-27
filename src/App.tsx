@@ -1,8 +1,8 @@
-import "./App.css";
 import Alert from "./components/Alert";
 import BugUpdate from "./components/BugUpdate";
 import Button from "./components/Button";
 import Click from "./components/Click";
+import Form from "./components/Form";
 import ListGroup from "./components/ListGroup";
 import NestedObject from "./components/NestedObject";
 import SharedState from "./components/SharedState";
@@ -33,7 +33,8 @@ function App() {
         Nested Object
         <NestedObject />
       </div> */}
-      <SharedState />
+      {/* <SharedState /> */}
+      <Form />
     </>
   );
 }
